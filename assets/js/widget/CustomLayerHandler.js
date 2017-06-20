@@ -6,7 +6,7 @@
     populateDropdownData: function ()
     {
         $.ajax({
-            url: "../intern/data/ref.json",
+            url: "./data/ref.json",
             success: $.proxy(function (data) {
                 this.configdata = data;
                 var content = "";
