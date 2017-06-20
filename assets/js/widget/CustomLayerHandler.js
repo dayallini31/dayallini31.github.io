@@ -32,7 +32,7 @@
     jsonDataHandler: function (obj)
     {
         $.ajax({
-            url: "../intern/data/" + obj['config']['source'],
+            url: "./data/" + obj['config']['source'],
             success: $.proxy(function (response) {
                 var e = {
                     name: obj.id,
